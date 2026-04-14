@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 11:25:43 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODUxOzIwMjYtMDQtMTQ7IjExOjAxOjQyICI7Mjg0OA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODUxOzIwMjYtMDQtMTQ7IjExOjI1OjQzICI7MTsyOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s" type="String" array="False" size=""/>
+            <output expression="&quot;O produto esta esgotado?&quot;" newline="True"/>
+            <output expression="&quot;Digite s ou n&quot;" newline="True"/>
+            <input variable="s"/>
+            <if expression="not (s = &quot;s&quot;)">
+                <then>
+                    <output expression="&quot;Produto dispon&#237;vel para venda&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Por favor, reabaste&#231;a o estoque&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

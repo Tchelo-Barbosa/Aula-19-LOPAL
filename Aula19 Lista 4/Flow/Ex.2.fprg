@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 11:01:16 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE0OzIwMjYtMDQtMTQ7IjEwOjM3OjA1ICI7Mjg1NA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE0OzIwMjYtMDQtMTQ7IjExOjAxOjE2ICI7MTsyOTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Real" array="False" size=""/>
+            <output expression="&quot;Verifica&#231;&#227;o de idade para entrada gratuita&quot;" newline="True"/>
+            <output expression="&quot;Qual a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade &lt;= 5 or idade &gt;= 65">
+                <then>
+                    <output expression="&quot;Entrada gratuita&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tem que pagar o ingresso&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

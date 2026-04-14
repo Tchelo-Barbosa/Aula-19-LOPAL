@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dev_1o_Ano"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-14 12:04:55 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE0OzIwMjYtMDQtMTQ7IjExOjA0OjU2ICI7Mjg1NQ=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODE0OzIwMjYtMDQtMTQ7IjEyOjA0OjU1ICI7NzsyOTY5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Real" array="False" size=""/>
+            <declare name="java, cobra" type="String" array="False" size=""/>
+            <output expression="&quot;Teste de idade para aprova&#231;&#227;o de curriculo&quot;" newline="True"/>
+            <output expression="&quot;Digite a sua idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Voc&#234; sabe JavaScript?&quot;" newline="True"/>
+            <input variable="java"/>
+            <output expression="&quot;Voc&#234; sabe Python?&quot;" newline="True"/>
+            <input variable="cobra"/>
+            <if expression="((idade &gt;= 18) and ((java = &quot;s&quot;) or (cobra = &quot;s&quot;)))">
+                <then>
+                    <output expression="&quot;Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Recusado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
